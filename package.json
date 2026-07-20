@@ -1,0 +1,39 @@
+{
+  "name": "whimsy-themes",
+  "displayName": "Whimsy Themes",
+  "description": "A collection of whimsical color themes for VS Code and Cursor.",
+  "version": "0.1.0",
+  "publisher": "sylviambugua",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1E1B2E",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sylviawanjiku/whimsy-themes.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "pastel",
+    "whimsy",
+    "candy"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Whimsy Candy Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/whimsy-candy-dark-color-theme.json"
+      }
+    ]
+  }
+}
