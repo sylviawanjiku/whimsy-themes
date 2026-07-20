@@ -7,6 +7,9 @@ A collection of whimsical color themes for VS Code and Cursor.
 ### Whimsy Candy Dark
 
 Deep indigo/charcoal background with soft pastel candy accents.
+<img width="1438" height="870" alt="image" src="https://github.com/user-attachments/assets/5e4006b2-a820-4826-abb5-7763405acb3b" />
+
+
 
 | Role | Color | Swatch name |
 | --- | --- | --- |
@@ -43,6 +46,8 @@ All four themes share this bracket treatment, each in its own palette.
 ### Whimsy Storybook Light
 
 Cream paper with warm storybook inks.
+<img width="1432" height="875" alt="image" src="https://github.com/user-attachments/assets/f7ee67d6-b6b8-47df-a07a-0dd8c96adb4d" />
+
 
 | Role | Color | Swatch name |
 | --- | --- | --- |
@@ -58,6 +63,8 @@ Cream paper with warm storybook inks.
 ### Whimsy Fairy Neon
 
 Vivid fairy-tale neon on deep indigo.
+<img width="1432" height="875" alt="image" src="https://github.com/user-attachments/assets/0709000f-84e5-43ce-8665-5aef0e23ce1f" />
+
 
 | Role | Color | Swatch name |
 | --- | --- | --- |
@@ -73,6 +80,8 @@ Vivid fairy-tale neon on deep indigo.
 ### Whimsy Garden
 
 Earthy garden whimsy: mosses, florals, mushroom tones.
+<img width="1431" height="898" alt="image" src="https://github.com/user-attachments/assets/2048ad3d-54e2-4cb4-a7a2-0c4583f54ea3" />
+
 
 | Role | Color | Swatch name |
 | --- | --- | --- |
