@@ -48,8 +48,10 @@ defaults to false and must be enabled by hand. Use `"active"` instead of
 
 ```bash
 npx @vscode/vsce package
-cursor --install-extension whimsy-themes-0.0.1.vsix
+cursor --install-extension whimsy-themes-*.vsix
 ```
+
+(The wildcard picks up whatever version you just built.)
 
 Then pick the theme via `Cmd+K Cmd+T` (Preferences: Color Theme).
 

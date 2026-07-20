@@ -1,0 +1,21 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate theme JSON
+        run: |
+          for f in themes/*.json; do
+            python3 -m json.tool "$f" > /dev/null && echo "ok: $f"
+          done
+
+      - name: Package extension
+        run: npx --yes @vscode/vsce package
