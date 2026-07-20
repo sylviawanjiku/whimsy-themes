@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.2.0 — 2026-07-20
+
+Three new themes, each a full palette remap of the Candy Dark base
+(workbench, syntax, semantic tokens, terminal, and rainbow brackets):
+
+- **Whimsy Storybook Light** — cream paper with warm storybook inks
+  (berry keywords, leaf-green strings, dusty-blue functions).
+- **Whimsy Fairy Neon** — vivid fairy-tale neon on midnight indigo
+  (neon pink, aqua glow, electric blue and violet).
+- **Whimsy Garden** — earthy garden tones on forest floor
+  (floral pink, moss, stream blue, mushroom tan, wisteria).
+
+All palettes pass the same contrast checks applied to Candy Dark in 0.1.1.
+
 ## 0.1.1 — 2026-07-20
 
 Contrast fixes from code review; no visible change to the theme's character.

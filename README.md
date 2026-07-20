@@ -38,6 +38,53 @@ Two editor settings control this (both should be on):
 defaults to false and must be enabled by hand. Use `"active"` instead of
 `true` to draw a guide only for the pair under the cursor.
 
+All four themes share this bracket treatment, each in its own palette.
+
+### Whimsy Storybook Light
+
+Cream paper with warm storybook inks.
+
+| Role | Color | Swatch name |
+| --- | --- | --- |
+| Background | `#FBF6EA` | Cream paper |
+| Foreground | `#453A2F` | Warm ink |
+| Keywords | `#B04A73` | Berry |
+| Strings | `#3E7A4E` | Leaf green |
+| Functions | `#3D6E99` | Dusty blue |
+| Numbers / constants | `#AD5C2B` | Terracotta |
+| Types / classes | `#7A55A3` | Plum |
+| Comments | `#98876C` | Faded ink (italic) |
+
+### Whimsy Fairy Neon
+
+Vivid fairy-tale neon on deep indigo.
+
+| Role | Color | Swatch name |
+| --- | --- | --- |
+| Background | `#16102E` | Midnight indigo |
+| Foreground | `#EDE7FF` | Starlight |
+| Keywords | `#FF6EC7` | Neon pink |
+| Strings | `#50FAC8` | Aqua glow |
+| Functions | `#5CC8FF` | Electric blue |
+| Numbers / constants | `#FFAE57` | Neon amber |
+| Types / classes | `#B98CFF` | Electric violet |
+| Comments | `#7E71B0` | Dusk (italic) |
+
+### Whimsy Garden
+
+Earthy garden whimsy: mosses, florals, mushroom tones.
+
+| Role | Color | Swatch name |
+| --- | --- | --- |
+| Background | `#20261C` | Forest floor |
+| Foreground | `#E7EDDD` | Morning mist |
+| Keywords | `#D98BA6` | Floral pink |
+| Strings | `#A8C686` | Moss |
+| Functions | `#8FBFD9` | Stream blue |
+| Numbers / constants | `#D9B98C` | Mushroom tan |
+| Types / classes | `#B3A3D6` | Wisteria |
+| Comments | `#87957B` | Sage (italic) |
+
 ## Developing
 
 1. Open this folder in Cursor (or VS Code).
