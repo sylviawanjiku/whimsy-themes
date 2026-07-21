@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.1 — 2026-07-20
+
+- Storybook Light: inactive activity-bar icons `#A5977B` → `#857659`
+  (2.29:1 → 3.54:1 against the activity bar), reusing the theme's existing
+  faded-ink tone. This was the one spot in 0.2.0 below the contrast bar set
+  in 0.1.1.
+- Add "light" to the extension keywords now that the collection includes a
+  light theme.
+
 ## 0.2.0 — 2026-07-20
 
 Three new themes, each a full palette remap of the Candy Dark base

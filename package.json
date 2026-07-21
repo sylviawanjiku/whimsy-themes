@@ -2,7 +2,7 @@
   "name": "whimsy-themes",
   "displayName": "Whimsy Themes",
   "description": "A collection of whimsical color themes for VS Code and Cursor.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "publisher": "sylviawanjiku",
   "license": "MIT",
   "icon": "icon.png",
@@ -23,6 +23,7 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "pastel",
     "whimsy",
     "candy"
