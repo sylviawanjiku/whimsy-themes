@@ -143,3 +143,27 @@ Then pick the theme via `Cmd+K Cmd+T` (Preferences: Color Theme).
 Use `"uiTheme": "vs"` for light themes.
 
 3. Bump the `version` in `package.json`, re-package, and re-install.
+
+## Releasing
+
+Releases are published to [Open VSX](https://open-vsx.org/extension/sylviawanjiku/whimsy-themes)
+automatically by the [Publish workflow](.github/workflows/publish.yml) when a
+version tag is pushed:
+
+1. Bump `version` in `package.json` and add a `CHANGELOG.md` entry.
+2. Commit and push to `main` (the Validate workflow checks the theme JSON and packaging).
+3. Tag the release and push the tag:
+
+```bash
+git tag v0.4.0
+git push origin v0.4.0
+```
+
+The workflow fails if the tag doesn't match the `version` in `package.json`.
+It authenticates with the `OVSX_PAT` repository secret (an access token from
+open-vsx.org → account → Access Tokens); if the token expires, generate a new
+one and update the secret under Settings → Secrets and variables → Actions.
+
+Screenshots in this README must be plain markdown images (`![name](url)`),
+not `<img>` tags with fixed `width`/`height` — Open VSX narrows images to fit
+its page while keeping any fixed height, which distorts them.
