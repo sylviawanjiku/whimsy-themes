@@ -4,9 +4,6 @@ A collection of whimsical color themes for VS Code and Cursor.
 
 ## Themes
 
-### whimsy-tidepool-color-theme
-<img width="1669" height="1031" alt="image" src="https://github.com/user-attachments/assets/d834f641-50a1-4406-9905-4122397f792a" />
-
 ### Whimsy Candy Dark
 
 Deep indigo/charcoal background with soft pastel candy accents.
@@ -100,6 +97,7 @@ Earthy garden whimsy: mosses, florals, mushroom tones.
 ### Whimsy Tidepool
 
 Deep Solarized-style lagoon teal with bright rock-pool accents.
+![Whimsy Tidepool](https://github.com/user-attachments/assets/d834f641-50a1-4406-9905-4122397f792a)
 
 | Role | Color | Swatch name |
 | --- | --- | --- |
