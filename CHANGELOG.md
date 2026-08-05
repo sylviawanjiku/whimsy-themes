@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.3.0 — 2026-07-29
+
+- **Whimsy Tidepool** — new dark theme built on a deep Solarized-style
+  lagoon teal (`#002B36`) with anemone-pink keywords, lagoon-cyan strings,
+  sky-blue functions, sunlit-gold numbers, and sea-glass-violet types.
+  Full palette remap of the same base as the other themes (workbench,
+  syntax, semantic tokens, terminal ANSI, and rainbow brackets).
+
 ## 0.2.1 — 2026-07-20
 
 - Storybook Light: inactive activity-bar icons `#A5977B` → `#857659`

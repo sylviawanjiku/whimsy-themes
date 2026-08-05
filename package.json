@@ -2,7 +2,7 @@
   "name": "whimsy-themes",
   "displayName": "Whimsy Themes",
   "description": "A collection of whimsical color themes for VS Code and Cursor.",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "publisher": "sylviawanjiku",
   "license": "MIT",
   "icon": "icon.png",
@@ -49,6 +49,11 @@
         "label": "Whimsy Garden",
         "uiTheme": "vs-dark",
         "path": "./themes/whimsy-garden-color-theme.json"
+      },
+      {
+        "label": "Whimsy Tidepool",
+        "uiTheme": "vs-dark",
+        "path": "./themes/whimsy-tidepool-color-theme.json"
       }
     ]
   }
