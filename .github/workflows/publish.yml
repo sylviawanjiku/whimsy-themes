@@ -1,0 +1,36 @@
+name: Publish
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check tag matches package.json version
+        if: github.ref_type == 'tag'
+        run: |
+          pkg_version="$(node -p "require('./package.json').version")"
+          if [ "v$pkg_version" != "$GITHUB_REF_NAME" ]; then
+            echo "Tag $GITHUB_REF_NAME does not match package.json version $pkg_version" >&2
+            exit 1
+          fi
+
+      - name: Validate theme JSON
+        run: |
+          for f in themes/*.json; do
+            python3 -m json.tool "$f" > /dev/null || exit 1
+            echo "ok: $f"
+          done
+
+      - name: Package extension
+        run: npx --yes @vscode/vsce package
+
+      - name: Publish to Open VSX
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+        run: npx --yes ovsx publish whimsy-themes-*.vsix -p "$OVSX_PAT"
